@@ -49,7 +49,7 @@ module.exports = {
 
   // . . . . (another configuration)
 ```
-9. connect the css public/build file to the html file with the <link> tag
+9. connect the css public/build file to the html file with the html link tag
 
 10. run the build command (for compiling the css source file into the public/build file) 
 ```
