@@ -34,7 +34,7 @@ touch index.html
 "scripts": {
 "build": "tailwindcss -i (css source file path) -o (css public file path) --watch",
 "production": "NODE_ENV=production tailwindcss -i (css source file path) -o (css public file path)",
-"production:build": "NODE_ENV=production tailwindcss -i (css source file path) -o (css public file path) --minify"
+"production:minify": "NODE_ENV=production tailwindcss -i (css source file path) -o (css public file path) --minify"
 },
 ```
 
