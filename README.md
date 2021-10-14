@@ -56,8 +56,14 @@ module.exports = {
 npm run build
 ```
 
-11. when finish the project, you can do the command below
+### Optional Things
+When finish the project, you can do the command below (make the project is on production stage)
 ```
 npm run production
 ``` 
+
+Or, minify it too (make the project is on production stage and get minified)
+```
+npm run production:minify
+```
 (this gonna minify your css file, and make it a lot faster to load in the browser
