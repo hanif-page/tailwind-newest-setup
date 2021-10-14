@@ -1,4 +1,4 @@
-# Tailwind CSS Setup 
+## Tailwind CSS JIT - Initial Setup 
 
 1. 
 ```
@@ -50,19 +50,33 @@ module.exports = {
   // . . . . (another configuration)
 ```
 9. connect the css public/build file to the html file with the html link tag
+```html
+<!-- html file example -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- . . . . (another head structure) -->
+        
+        <!-- this is the example how to connect the build css file to the html file -->
+        <link rel="stylesheet" href="PATH/PATH/file-name.css">
+    </head>
+
+<!-- . . . . (another content) -->
+```
 
 10. run the build command (for compiling the css source file into the public/build file) 
 ```
 npm run build
 ```
 
-### Optional Things
-When finish the project, you can do the command below (make the project is on production stage)
+
+## Optional Things
+- When finish the project, you can do the command below (make the project is on production stage)
 ```
 npm run production
 ``` 
 
-Or, minify it too (make the project is on production stage and get minified)
+- Or, minify it too (make the project is on production stage and get minified)
 ```
 npm run production:minify
 ```
